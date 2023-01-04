@@ -16,6 +16,7 @@ cmake_minimum_required(VERSION 3.2)
 
 project(cartographer)
 
+SET(CMAKE_CXX_FLAGS "-std=c++0x")
 set(CARTOGRAPHER_MAJOR_VERSION 1)
 set(CARTOGRAPHER_MINOR_VERSION 0)
 set(CARTOGRAPHER_PATCH_VERSION 0)

@@ -12,6 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+SET(CMAKE_CXX_FLAGS "-std=c++0x")
 set(OUTPUT_DIR "${PROJECT_BINARY_DIR}/docs/html")
 
 add_custom_target(build_doc ALL
